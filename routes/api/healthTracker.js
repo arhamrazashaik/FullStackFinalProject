@@ -5,7 +5,7 @@ require('../../config/passport')(passport);
 
 // Matches with "/api/healthTracker"
 router.post('/newUser', passport.authenticate('jwt', { session: false }), (req, res) => {
-    const token = getToken(req.headers);
+    const token = getToken(req.headers)
     if (token) {
       console.log('user is loggd in to the post route newUser');
       db.User.createUser(req, res);

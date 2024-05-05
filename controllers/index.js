@@ -1,6 +1,6 @@
 module.exports = {
     User: require("./userController"),
-    Day: require("./dayController"),
+    Day: require('./dayController'),
     Exercise: require("./exerciseController"),
 }
 

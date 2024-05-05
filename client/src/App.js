@@ -10,7 +10,7 @@ import ExercisePage from './pages/ExercisePage';
 import WeightPage from './pages/WeightPage';
 import MoreInfoPage from './pages/MoreInfoPage';
 
-import './App.css';
+import './App.css'
 
 const App = () => (
   <Router>

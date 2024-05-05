@@ -22,14 +22,14 @@ module.exports = {
             }
         })
         .then((userModel) => res.json(userModel))
-        .catch(err => res.status(422).json(err));
+        .catch(err => res.status(422).json(err))
     },
 
     createUser: function(req, res) {
         db.User
         .create(req.body)
         .then(userModel => res.json(userModel))
-        .catch(err => res.status(422).json(err));
+        .catch(err => res.status(422).json(err))
     },
 
     updateUser: function(req, res) {

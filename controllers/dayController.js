@@ -72,7 +72,7 @@ module.exports = {
         .then(dbDays => {
             return res.json(dbDays)
         })
-        .catch(err => res.status(422).json(err));
+        .catch(err => res.status(422).json(err))
     }
 
 

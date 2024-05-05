@@ -16,7 +16,7 @@ module.exports = {
             .catch(err => res.status(422).json(err))
             return res.send("Exercise Added")
         })
-        .catch(err => res.status(422).json(err));
+        .catch(err => res.status(422).json(err))
     },
 
 }

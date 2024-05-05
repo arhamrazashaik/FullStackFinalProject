@@ -3,7 +3,7 @@ const JwtStrategy = require('passport-jwt').Strategy,
 
 // load up the user model
 const User = require('../models/User');
-const settings = require('../config/settings'); // get settings file
+const settings = require('../config/settings');
 
 module.exports = passport => {
   let opts = {};

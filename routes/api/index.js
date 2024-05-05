@@ -4,4 +4,4 @@ const healthTrackerRoutes = require("./healthTracker");
 // routes
 router.use("/healthTracker", healthTrackerRoutes);
 
-module.exports = router;
+module.exports = router

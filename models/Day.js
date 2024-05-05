@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+const mongoose = require("mongoose")
+const Schema = mongoose.Schema
 
 const daySchema = new Schema({
     userId: { type: Schema.Types.ObjectId },
@@ -11,6 +11,6 @@ const daySchema = new Schema({
     weight: {type: Number}
 }); 
 
-const Day = mongoose.model("Day", daySchema);
+const Day = mongoose.model("Day", daySchema)
 
 module.exports = Day;
